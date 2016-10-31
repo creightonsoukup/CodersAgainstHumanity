@@ -40,6 +40,9 @@ HUMANITY</string>
                                 <state key="normal" title="INSTRUCTIONS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0w7-xg-f2U" kind="show" id="0aj-Vh-7yV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUz-vX-CEs">
                                 <rect key="frame" x="115" y="226" width="144" height="116"/>
@@ -47,6 +50,9 @@ HUMANITY</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <state key="normal" title="LOGIN"/>
+                                <connections>
+                                    <segue destination="qGd-Jr-ahE" kind="show" id="CUm-h2-Ou4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
