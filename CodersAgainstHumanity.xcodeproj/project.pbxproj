@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B4A4C41E1DC7AF220036C188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C41D1DC7AF220036C188 /* AppDelegate.swift */; };
-		B4A4C4201DC7AF220036C188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C41F1DC7AF220036C188 /* ViewController.swift */; };
+		B4A4C4201DC7AF220036C188 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C41F1DC7AF220036C188 /* LoginVC.swift */; };
 		B4A4C4231DC7AF220036C188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A4C4211DC7AF220036C188 /* Main.storyboard */; };
 		B4A4C4251DC7AF220036C188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A4C4241DC7AF220036C188 /* Assets.xcassets */; };
 		B4A4C4281DC7AF220036C188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A4C4261DC7AF220036C188 /* LaunchScreen.storyboard */; };
 		B4A4C4331DC7AF220036C188 /* CodersAgainstHumanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C4321DC7AF220036C188 /* CodersAgainstHumanityTests.swift */; };
 		B4A4C43E1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C43D1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift */; };
+		B4F28B321DC7B9BA00C6BD75 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */; };
+		B4F28B341DC7B9EC00C6BD75 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F28B331DC7B9EC00C6BD75 /* GameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		B4A4C41A1DC7AF220036C188 /* CodersAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodersAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A4C41D1DC7AF220036C188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4A4C41F1DC7AF220036C188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4A4C41F1DC7AF220036C188 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B4A4C4221DC7AF220036C188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4A4C4241DC7AF220036C188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A4C4271DC7AF220036C188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		B4A4C4391DC7AF220036C188 /* CodersAgainstHumanityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodersAgainstHumanityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A4C43D1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodersAgainstHumanityUITests.swift; sourceTree = "<group>"; };
 		B4A4C43F1DC7AF220036C188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
+		B4F28B331DC7B9EC00C6BD75 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameVC.swift; path = ../GameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		B4A4C41C1DC7AF220036C188 /* CodersAgainstHumanity */ = {
 			isa = PBXGroup;
 			children = (
+				B4F28B331DC7B9EC00C6BD75 /* GameVC.swift */,
 				B4A4C41D1DC7AF220036C188 /* AppDelegate.swift */,
-				B4A4C41F1DC7AF220036C188 /* ViewController.swift */,
+				B4A4C41F1DC7AF220036C188 /* LoginVC.swift */,
+				B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */,
 				B4A4C4211DC7AF220036C188 /* Main.storyboard */,
 				B4A4C4241DC7AF220036C188 /* Assets.xcassets */,
 				B4A4C4261DC7AF220036C188 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A4C4201DC7AF220036C188 /* ViewController.swift in Sources */,
+				B4A4C4201DC7AF220036C188 /* LoginVC.swift in Sources */,
+				B4F28B321DC7B9BA00C6BD75 /* InstructionsVC.swift in Sources */,
+				B4F28B341DC7B9EC00C6BD75 /* GameVC.swift in Sources */,
 				B4A4C41E1DC7AF220036C188 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				B4A4C4441DC7AF220036C188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A4C4451DC7AF220036C188 /* Build configuration list for PBXNativeTarget "CodersAgainstHumanityTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				B4A4C4471DC7AF220036C188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A4C4481DC7AF220036C188 /* Build configuration list for PBXNativeTarget "CodersAgainstHumanityUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				B4A4C44A1DC7AF220036C188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
