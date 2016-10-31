@@ -16,6 +16,8 @@
 		B4A4C4331DC7AF220036C188 /* CodersAgainstHumanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C4321DC7AF220036C188 /* CodersAgainstHumanityTests.swift */; };
 		B4A4C43E1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C43D1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift */; };
 		B4F28B321DC7B9BA00C6BD75 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */; };
+		D8EA55B01DC7E7A50074D742 /* PageVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA55AF1DC7E7A50074D742 /* PageVCViewController.swift */; };
+		D8EA55B21DC7EAFE0074D742 /* PickCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA55B11DC7EAFE0074D742 /* PickCardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B4A4C43D1DC7AF220036C188 /* CodersAgainstHumanityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodersAgainstHumanityUITests.swift; sourceTree = "<group>"; };
 		B4A4C43F1DC7AF220036C188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
+		D8EA55AF1DC7E7A50074D742 /* PageVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVCViewController.swift; sourceTree = "<group>"; };
+		D8EA55B11DC7EAFE0074D742 /* PickCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickCardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				B4A4C41F1DC7AF220036C188 /* LoginVC.swift */,
 				B4F28B311DC7B9BA00C6BD75 /* InstructionsVC.swift */,
 				B4A4C4211DC7AF220036C188 /* Main.storyboard */,
+				D8EA55B11DC7EAFE0074D742 /* PickCardVC.swift */,
+				D8EA55AF1DC7E7A50074D742 /* PageVCViewController.swift */,
 				B4A4C4241DC7AF220036C188 /* Assets.xcassets */,
 				B4A4C4261DC7AF220036C188 /* LaunchScreen.storyboard */,
 				B4A4C4291DC7AF220036C188 /* Info.plist */,
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A4C4201DC7AF220036C188 /* LoginVC.swift in Sources */,
+				D8EA55B21DC7EAFE0074D742 /* PickCardVC.swift in Sources */,
 				B4F28B321DC7B9BA00C6BD75 /* InstructionsVC.swift in Sources */,
+				D8EA55B01DC7E7A50074D742 /* PageVCViewController.swift in Sources */,
 				B473F24B1DC7D83B00205A2D /* GameVC.swift in Sources */,
 				B4A4C41E1DC7AF220036C188 /* AppDelegate.swift in Sources */,
 			);
